@@ -4,7 +4,7 @@ This repository contains a reimplementation of the solution approaches described
 
 ### Compiling the code
 
-Before running our solution approaches, it is needed to compile their code. To this end, just run the following command in both folders (src/vns and src/ilp):
+Before running our solution approaches, it is needed to compile their code. To this end, just run the following command in both folders "src/vns" and "src/ilp":
 
 ```console
 $ make
