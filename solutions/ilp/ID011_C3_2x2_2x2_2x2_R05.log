@@ -1,0 +1,145 @@
+Mon Jul  9 23:06:13 2018
+
+Tried aggregator 2 times.
+MIP Presolve eliminated 2300 rows and 73 columns.
+Aggregator did 132 substitutions.
+Reduced MIP has 2677 rows, 1182 columns, and 10500 nonzeros.
+Reduced MIP has 1182 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (13.42 ticks)
+Probing time = 0.00 sec. (0.83 ticks)
+Tried aggregator 1 time.
+Presolve time = 0.01 sec. (4.85 ticks)
+Probing time = 0.00 sec. (0.83 ticks)
+Clique table members: 5388.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 32 threads.
+Root relaxation solution time = 0.02 sec. (19.89 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      344.0000   175                    344.0000      348         
+      0     0      446.7857   206                    Cuts: 63      773         
+      0     0      454.7037   239                    Cuts: 36      911         
+      0     0      455.6176   228                    Cuts: 29     1025         
+*     0+    0                         1041.0000      455.6176     1176   56.23%
+Found incumbent of value 1041.000000 after 0.71 sec. (266.00 ticks)
+      0     0      460.3273   228     1041.0000      Cuts: 40     1176   55.78%
+      0     0      476.7617   258     1041.0000      Cuts: 50     1450   54.20%
+      0     0      482.2596   258     1041.0000      Cuts: 31     1603   53.67%
+      0     0      484.0155   282     1041.0000      Cuts: 31     1760   53.50%
+      0     0      484.7210   274     1041.0000  ZeroHalf: 30     1825   53.44%
+      0     0      485.2043   259     1041.0000  ZeroHalf: 26     1902   53.39%
+      0     0      486.0648   253     1041.0000      Cuts: 19     1952   53.31%
+      0     0      486.3307   264     1041.0000  ZeroHalf: 21     2034   53.28%
+      0     0      486.3952   269     1041.0000  ZeroHalf: 20     2085   53.28%
+      0     0      486.4498   248     1041.0000  ZeroHalf: 20     2123   53.27%
+      0     0      486.4498   266     1041.0000  ZeroHalf: 21     2148   53.27%
+      0     0      486.4498   265     1041.0000  ZeroHalf: 19     2184   53.27%
+      0     2      486.4498   258     1041.0000      486.4498     2184   53.27%
+Elapsed time = 2.10 sec. (887.67 ticks, tree = 0.01 MB, solutions = 1)
+*     4+    4                         1035.0000      489.0000     3159   52.75%
+Found incumbent of value 1035.000000 after 2.24 sec. (996.54 ticks)
+     16    18      521.0069   232     1035.0000      498.3000     5459   51.86%
+*    69+   69                         1029.0000      498.3000    14896   51.57%
+                                                      Cuts: 8                  
+Found incumbent of value 1029.000000 after 3.40 sec. (1352.88 ticks)
+    208   194      699.2667   139     1029.0000      498.3000    31900   51.57%
+                                                      Cuts: 5                  
+*   541   472      integral     0     1006.0000      498.3000    59995   50.47%
+Found incumbent of value 1006.000000 after 4.13 sec. (1471.87 ticks)
+*   566+  485                          926.0000      498.3000    61223   46.19%
+Found incumbent of value 926.000000 after 4.13 sec. (1503.17 ticks)
+   1209   932      800.3600   151      926.0000      498.3000   102025   46.19%
+                                                     Cuts: 19                  
+*  1379+ 1031                          904.0000      498.3000   109358   44.88%
+Found incumbent of value 904.000000 after 4.86 sec. (1685.91 ticks)
+*  2328  1670      integral     0      902.0000      509.4048   164812   43.52%
+                                                      Cuts: 8                  
+Found incumbent of value 902.000000 after 5.66 sec. (1793.15 ticks)
+*  2367  1683      integral     0      870.0000      509.4048   166344   41.45%
+Found incumbent of value 870.000000 after 5.66 sec. (1818.25 ticks)
+   2908  1905      710.9316   181      870.0000      526.9000   200129   39.44%
+                                                     Cuts: 16                  
+   3990  2708      670.4019   235      870.0000      574.8571   261552   33.92%
+                                                     Cuts: 23                  
+   4790  3311      656.6163   227      870.0000      574.8571   306353   33.92%
+  11011  7745      492.6200   285      870.0000      636.6923   628385   26.82%
+Elapsed time = 13.00 sec. (5063.57 ticks, tree = 127.68 MB, solutions = 16)
+  11038  7758      787.1111   170      870.0000      636.6923   635630   26.82%
+                                                  ZeroHalf: 7                  
+  13006  6560      709.5000   154      870.0000      636.6923   813252   26.82%
+                                                     Cuts: 25                  
+* 15013  5425      integral     0      866.0000      636.6923  1033206   26.48%
+                                                     Cuts: 11                  
+Found incumbent of value 866.000000 after 20.89 sec. (7554.10 ticks)
+* 16267+ 5012                          863.0000      636.6923  1156216   26.22%
+                                                     Cuts: 15                  
+Found incumbent of value 863.000000 after 21.77 sec. (8037.26 ticks)
+  17727  5127      740.9167   168      863.0000      636.6923  1312781   26.22%
+  19600  5886      839.2091   174      863.0000      636.6923  1534231   26.22%
+                                                     Cuts: 13                  
+  22075  7028      744.3333    87      863.0000      641.9583  1793672   25.61%
+                                                  ZeroHalf: 4                  
+  25382  8543      704.6667   170      863.0000      666.8790  2108837   22.73%
+                                                      Cuts: 2                  
+  28825  9950      714.6185   213      863.0000      686.0000  2432780   20.51%
+                                                      Cuts: 5                  
+  32032 11140      754.2708   172      863.0000      686.0000  2757021   20.51%
+  37186 13244        cutoff            863.0000      705.9355  3177211   18.20%
+                                                     Cuts: 21                  
+Elapsed time = 36.59 sec. (14330.65 ticks, tree = 20.02 MB, solutions = 18)
+* 41427+14563                          861.0000      721.4429  3549135   16.21%
+                                                     Cuts: 21                  
+Found incumbent of value 861.000000 after 38.63 sec. (15033.21 ticks)
+* 42519+14895                          857.0000      721.4429  3646099   15.82%
+Found incumbent of value 857.000000 after 39.28 sec. (15213.30 ticks)
+  42567 14914        cutoff            857.0000      721.4429  3649502   15.82%
+  46648 15680      853.7500   161      857.0000      733.4736  4021472   14.41%
+                                                      Cuts: 6                  
+  51524 16631      796.6223   203      857.0000      744.0455  4444033   13.18%
+                                                   Covers: 15                  
+  56056 17345      841.5000   108      857.0000      753.0000  4818755   12.14%
+                                                     Cuts: 11                  
+  61613 17976      822.1548   199      857.0000      762.0000  5232147   11.09%
+                                                   Covers: 12                  
+  65993 18337      851.5000    83      857.0000      762.0000  5534775   11.09%
+* 66455+18345                          855.0000      769.0000  5569781   10.06%
+                                                    Covers: 8                  
+Found incumbent of value 855.000000 after 51.72 sec. (20136.76 ticks)
+  71219 18332      846.0000    54      855.0000      769.1667  5886120   10.04%
+  76915 18170      834.0000   106      855.0000      777.5340  6238716    9.06%
+                                                      Cuts: 6                  
+  83445 17645        cutoff            855.0000      784.5000  6619966    8.25%
+                                                    Covers: 3                  
+  90846 16506      840.3333    68      855.0000      790.5377  7032124    7.54%
+                                                    Covers: 4                  
+Elapsed time = 61.07 sec. (23912.29 ticks, tree = 21.99 MB, solutions = 23)
+  97753 14884      836.0000    77      855.0000      798.9167  7384344    6.56%
+                                                    Covers: 7                  
+ 106781 12101      847.3333   123      855.0000      814.0000  7767926    4.80%
+                                                     Cuts: 30                  
+ 116817  8354      850.5000   139      855.0000      822.0000  8088878    3.86%
+                                                    Covers: 3                  
+ 129516  1075        cutoff            855.0000      833.2222  8353707    2.55%
+                                                    Covers: 8                  
+
+Cover cuts applied:  161
+Implied bound cuts applied:  1
+Zero-half cuts applied:  147
+Gomory fractional cuts applied:  7
+
+Root node processing (before b&c):
+  Real time             =    1.99 sec. (830.90 ticks)
+Parallel b&c, 32 threads:
+  Real time             =   69.67 sec. (26968.40 ticks)
+  Sync time (average)   =    0.17 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   71.66 sec. (27799.30 ticks)
+
+
+Solution status: Optimal
+Execution time: 71.8 sec
+Gap: 0.00000

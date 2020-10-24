@@ -1,0 +1,13 @@
+Total routing cost               Time(s)
+              2003                 0.001
+              1395                 0.047
+              1312                 0.131
+              1272                 1.154
+              1266                 1.305
+              1258                 1.527
+              1253                 1.918
+              1252                 3.022
+              1252                 7.079 (FITNESS_EVALUATION::HEURISTIC)
+              1252                 7.080 (FITNESS_EVALUATION::EXACT)
+
+Total runtime:                 7.084 secs
